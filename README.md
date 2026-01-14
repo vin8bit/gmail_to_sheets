@@ -70,7 +70,7 @@ This Python project automatically reads **unread emails** from your Gmail inbox 
 5. Click **Create**
 6. Download the credentials JSON file
 7. Rename it to `credentials.json`
-8. Place it inside the project root directory
+8. Place it inside the project root/credentials directory
 
 ---
 
@@ -131,3 +131,4 @@ Or find it directly in your Google Drive
 1. Only unread emails are processed
 2. Already processed emails are skipped automatically using state.json
 3. Ensure credentials.json and config.json are properly configured
+
