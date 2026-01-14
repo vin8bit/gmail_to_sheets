@@ -104,12 +104,12 @@ pip install -r requirements.txt
 ```bash
 python setup.py
 ```
-A browser window will open for OAuth authentication
+- A browser window will open for OAuth authentication
 Grant required permissions
 Return to terminal and choose:
-Use an existing spreadsheet OR
+- Use an existing spreadsheet OR
 Create a new spreadsheet
-If using an existing spreadsheet, provide the Spreadsheet ID in config.json
+- If using an existing spreadsheet, provide the Spreadsheet ID in config.json
 
 ### Run Main Script
 ```bash
@@ -127,8 +127,8 @@ https://docs.google.com/spreadsheets/d/{spreadsheet_id}
 Or find it directly in your Google Drive
 
 ### 📌 Notes
+- Only unread emails are processed
+- Already processed emails are skipped automatically using state.json
+- nsure credentials.json and config.json are properly configured
 
-1. Only unread emails are processed
-2. Already processed emails are skipped automatically using state.json
-3. Ensure credentials.json and config.json are properly configured
 
