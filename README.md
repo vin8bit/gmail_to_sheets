@@ -129,6 +129,7 @@ Or find it directly in your Google Drive
 ### 📌 Notes
 - Only unread emails are processed
 - Already processed emails are skipped automatically using state.json
-- nsure credentials.json and config.json are properly configured
+- Ensure credentials.json and config.json are properly configured
+
 
 
