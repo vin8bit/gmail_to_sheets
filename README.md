@@ -1,3 +1,5 @@
+File Stucture: <img width="325" height="353" alt="image" src="https://github.com/user-attachments/assets/b07c5fc3-a4bd-40e7-8fea-3b709807288d" />
+
 📧 Gmail to Google Sheets Automation
 This Python project automatically reads unread emails from your Gmail inbox and logs them into a Google Sheets spreadsheet.
 🚀 Features
@@ -84,5 +86,6 @@ python main.py
 •	Only unread emails are processed
 •	Already processed emails are skipped automatically because of state.json
 •	Ensure credentials.json and config.json are correctly configured
+
 
 
